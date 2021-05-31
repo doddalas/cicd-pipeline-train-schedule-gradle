@@ -1,0 +1,290 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\dodda\\sources_git\\cicd-pipeline-train-schedule-gradle\\.gradle\\nodejs\\node-v6.9.1-win-x64\\node.exe',
+1 verbose cli   'C:\\Users\\dodda\\sources_git\\cicd-pipeline-train-schedule-gradle\\.gradle\\nodejs\\node-v6.9.1-win-x64\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData cookie-parser
+20 silly mapToRegistry name cookie-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'cookie-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'cookie-parser',
+23 silly mapToRegistry   name: 'cookie-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+25 silly fetchNamedPackageData debug
+26 silly mapToRegistry name debug
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'debug',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'debug',
+29 silly mapToRegistry   name: 'debug',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/debug
+31 silly fetchNamedPackageData express
+32 silly mapToRegistry name express
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'express',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'express',
+35 silly mapToRegistry   name: 'express',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/express
+37 silly fetchNamedPackageData http-errors
+38 silly mapToRegistry name http-errors
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'http-errors',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'http-errors',
+41 silly mapToRegistry   name: 'http-errors',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/http-errors
+43 silly fetchNamedPackageData jade
+44 silly mapToRegistry name jade
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'jade',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'jade',
+47 silly mapToRegistry   name: 'jade',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/jade
+49 silly fetchNamedPackageData lowdb
+50 silly mapToRegistry name lowdb
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'lowdb',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'lowdb',
+53 silly mapToRegistry   name: 'lowdb',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/lowdb
+55 silly fetchNamedPackageData morgan
+56 silly mapToRegistry name morgan
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'morgan',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'morgan',
+59 silly mapToRegistry   name: 'morgan',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/morgan
+61 silly fetchNamedPackageData npm
+62 silly mapToRegistry name npm
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'npm',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'npm',
+65 silly mapToRegistry   name: 'npm',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/npm
+67 verbose request uri https://registry.npmjs.org/cookie-parser
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 7:34:55 PM
+70 verbose request id 0c2e5d1c132656b4
+71 http request GET https://registry.npmjs.org/cookie-parser
+72 verbose request uri https://registry.npmjs.org/debug
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 7:34:55 PM
+75 http request GET https://registry.npmjs.org/debug
+76 verbose request uri https://registry.npmjs.org/express
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 7:34:55 PM
+79 http request GET https://registry.npmjs.org/express
+80 verbose request uri https://registry.npmjs.org/http-errors
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 7:34:55 PM
+83 http request GET https://registry.npmjs.org/http-errors
+84 verbose request uri https://registry.npmjs.org/jade
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 7:34:55 PM
+87 http request GET https://registry.npmjs.org/jade
+88 verbose request uri https://registry.npmjs.org/lowdb
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 7:34:55 PM
+91 http request GET https://registry.npmjs.org/lowdb
+92 verbose request uri https://registry.npmjs.org/morgan
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 7:34:55 PM
+95 http request GET https://registry.npmjs.org/morgan
+96 verbose request uri https://registry.npmjs.org/npm
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 7:34:55 PM
+99 http request GET https://registry.npmjs.org/npm
+100 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+101 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+102 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+103 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+104 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+105 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+106 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+107 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+108 info attempt registry request try #2 at 7:35:05 PM
+109 http request GET https://registry.npmjs.org/cookie-parser
+110 info attempt registry request try #2 at 7:35:05 PM
+111 http request GET https://registry.npmjs.org/http-errors
+112 info attempt registry request try #2 at 7:35:05 PM
+113 http request GET https://registry.npmjs.org/morgan
+114 info attempt registry request try #2 at 7:35:05 PM
+115 http request GET https://registry.npmjs.org/express
+116 info attempt registry request try #2 at 7:35:05 PM
+117 http request GET https://registry.npmjs.org/lowdb
+118 info attempt registry request try #2 at 7:35:05 PM
+119 http request GET https://registry.npmjs.org/npm
+120 info attempt registry request try #2 at 7:35:05 PM
+121 http request GET https://registry.npmjs.org/jade
+122 info attempt registry request try #2 at 7:35:05 PM
+123 http request GET https://registry.npmjs.org/debug
+124 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+125 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+126 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+127 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+128 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+129 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+130 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+131 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+132 info attempt registry request try #3 at 7:36:05 PM
+133 http request GET https://registry.npmjs.org/http-errors
+134 info attempt registry request try #3 at 7:36:05 PM
+135 http request GET https://registry.npmjs.org/morgan
+136 info attempt registry request try #3 at 7:36:05 PM
+137 http request GET https://registry.npmjs.org/cookie-parser
+138 info attempt registry request try #3 at 7:36:05 PM
+139 http request GET https://registry.npmjs.org/express
+140 info attempt registry request try #3 at 7:36:05 PM
+141 http request GET https://registry.npmjs.org/lowdb
+142 info attempt registry request try #3 at 7:36:05 PM
+143 http request GET https://registry.npmjs.org/npm
+144 info attempt registry request try #3 at 7:36:05 PM
+145 http request GET https://registry.npmjs.org/jade
+146 info attempt registry request try #3 at 7:36:05 PM
+147 http request GET https://registry.npmjs.org/debug
+148 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+148 silly fetchPackageMetaData
+148 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+148 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+148 silly fetchPackageMetaData  error for http-errors@~1.6.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+148 silly fetchPackageMetaData
+148 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+148 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+149 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+149 silly fetchPackageMetaData
+149 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+149 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+149 silly fetchPackageMetaData  error for cookie-parser@~1.4.3 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+149 silly fetchPackageMetaData
+149 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+149 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+150 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+150 silly fetchPackageMetaData
+150 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+150 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+150 silly fetchPackageMetaData  error for npm@^5.8.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+150 silly fetchPackageMetaData
+150 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+150 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+151 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+151 silly fetchPackageMetaData
+151 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+151 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+151 silly fetchPackageMetaData  error for debug@~2.6.9 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+151 silly fetchPackageMetaData
+151 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+151 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+152 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+152 silly fetchPackageMetaData
+152 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+152 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+152 silly fetchPackageMetaData  error for jade@~1.11.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+152 silly fetchPackageMetaData
+152 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+152 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+153 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+153 silly fetchPackageMetaData
+153 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+153 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+153 silly fetchPackageMetaData  error for lowdb@^1.0.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+153 silly fetchPackageMetaData
+153 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+153 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+154 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+154 silly fetchPackageMetaData
+154 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+154 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+154 silly fetchPackageMetaData  error for morgan@~1.9.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+154 silly fetchPackageMetaData
+154 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+154 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+155 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+155 silly fetchPackageMetaData
+155 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+155 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+155 silly fetchPackageMetaData  error for express@~4.16.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+155 silly fetchPackageMetaData
+155 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+155 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+156 silly rollbackFailedOptional Starting
+157 silly rollbackFailedOptional Finishing
+158 silly runTopLevelLifecycles Finishing
+159 silly install printInstalled
+160 verbose stack Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+160 verbose stack
+160 verbose stack     at exports._errnoException (util.js:1026:11)
+160 verbose stack     at WriteWrap.afterWrite (net.js:799:14)
+161 verbose cwd C:\Users\dodda\sources_git\cicd-pipeline-train-schedule-gradle
+162 error Windows_NT 10.0.19042
+163 error argv "C:\\Users\\dodda\\sources_git\\cicd-pipeline-train-schedule-gradle\\.gradle\\nodejs\\node-v6.9.1-win-x64\\node.exe" "C:\\Users\\dodda\\sources_git\\cicd-pipeline-train-schedule-gradle\\.gradle\\nodejs\\node-v6.9.1-win-x64\\node_modules\\npm\\bin\\npm-cli.js" "install"
+164 error node v6.9.1
+165 error npm  v3.10.8
+166 error code EPROTO
+167 error errno EPROTO
+168 error syscall write
+169 error write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+170 error If you need help, you may report this error at:
+170 error     <https://github.com/npm/npm/issues>
+171 verbose exit [ 1, true ]
